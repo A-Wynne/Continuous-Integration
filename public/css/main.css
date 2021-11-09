@@ -1,0 +1,109 @@
+.error1{
+    color: red;
+}
+.error2{
+    color: red;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+} 
+h1, h2, h3{
+    text-align: center;
+}
+#errors{
+    color: black;
+    font-family: cursive;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
+form, .formData{
+    width: 450px;
+    border: 3px solid black;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 50px auto;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+label{
+    width: 250px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+input:not([type="radio"]), select{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+input:not([type="radio"]){
+    width: 170px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+select{
+    width: 190px;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 8px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 10px;;
+}
+th, td{
+    min-width: 100px;
+    border: 2px solid black;
+    padding: 5px ;
+}
+table.receipt{
+    text-align: right;
+}
+.errors{
+    font-size: small;
+}
+#nav_menu ul li {
+	float: left;
+}
+
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 160px;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}

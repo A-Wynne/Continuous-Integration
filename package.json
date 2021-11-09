@@ -1,0 +1,22 @@
+{
+  "name": "assignment-3",
+  "version": "1.0.0",
+  "description": "assignment 3",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-validator": "*",
+    "express-session": "*",
+    "express-messages": "*",
+    "connect-flash": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Wynne",
+  "license": "ISC"
+}
